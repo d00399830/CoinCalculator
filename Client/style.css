@@ -1,0 +1,46 @@
+html,body { 
+	height:100%; 
+}
+
+html {
+	background-color: #091121;
+}
+
+#wrapper {
+	background-color: #8bc53f;
+	margin-left: 10%;
+	padding-left: 10%;
+	margin-right: 10%;
+	padding-right: 10%;
+	overflow: hidden;
+	margin-bottom: 2.5%;
+	min-height: 40%;
+}
+
+.Title {
+	margin-left: 35%;
+}
+
+#subncheck {
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+button {
+	margin-right: 25%;
+}
+
+#home_Button {
+	display: none;
+}
+
+#ticket-submission {
+	margin-top: 5%;
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .text {
+    font-size: 16px;
+  }
+}
